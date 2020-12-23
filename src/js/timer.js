@@ -16,7 +16,7 @@ class CountdownTimer {
     const nowDate = Date.now();
     const time = this.targetDate - nowDate;
     this.updateClockface(time);
-this.timeFinish(time);
+    this.timeFinish(time);
   }, 1000);
 
   updateClockface(time) {
